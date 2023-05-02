@@ -1,10 +1,12 @@
 # paradigm-shift-jekyll-theme
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+## Preview: Live Demo
+[![Screenshot](paradigm-shift-screenshot.png)](https://paradigm-shift-jekyll-theme.netlify.app)
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## About
 
-TODO: Delete this and the text above, and describe your gem
+This is the [Paradigm Shift template](https://html5up.net/paradigm-shift), converted to a gem-based Jekyll theme with GitHub Pages support.
 
 ## Installation
 
@@ -28,13 +30,17 @@ Or install it yourself as:
 
     $ gem install paradigm-shift-jekyll-theme
 
+<!--
+
 ## Usage
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
 
+-->
+
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/paradigm-shift-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/avicndugu/paradigm-shift-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors. If you have an idea, suggestion, feature request, etc., feel free to open an issue or pull request.
 
 ## Development
 
