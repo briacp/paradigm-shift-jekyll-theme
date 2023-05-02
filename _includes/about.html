@@ -1,0 +1,17 @@
+<section id="first">
+  {% if site.data.about.title %}
+  <header>
+    <h2>{{ site.data.about.title }}</h2>
+  </header>
+  {% endif %}
+  <div class="content">
+    {% if site.data.about.text %}
+    <p>{{ site.data.about.text }}</p>
+    {% endif %}
+    <span class="image main">
+      {% if site.data.about.image %}
+      <img src="{{ site.data.about.image }}" alt="" />
+      {% endif %}
+    </span>
+  </div>
+</section>

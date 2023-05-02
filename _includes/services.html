@@ -1,0 +1,18 @@
+<section>
+  {% if site.data.services.title %}
+  <header>
+    <h2>{{ site.data.services.title }}</h2>
+  </header>
+  {% endif %}
+  <div class="content">
+    {% if site.data.services.p1 %}
+    <p>{{ site.data.services.p1 }}</p>
+    <ul class="feature-icons">
+      {% for item in site.data.services.list %}
+      <li class="icon {{ item.icon }}">{{ item.title }}</li>
+      {% endfor %}
+    </ul>
+    <p>{{ site.data.services.p2 }}</p>
+  </div>
+  {% endif %}
+</section>

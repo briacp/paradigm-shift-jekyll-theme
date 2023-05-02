@@ -1,0 +1,32 @@
+<!-- Section -->
+<section>
+  <header>
+    <h2>{{ site.data.portfolio.title }}</h2>
+  </header>
+  <div class="content">
+    <p>{{ site.data.portfolio.text }}</p>
+    <!-- Section -->
+    {% for project in site.data.portfolio.projects %}
+    <section>
+      <header>
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.text }}</p>
+      </header>
+      <div class="content">
+        <div class="gallery">
+          {% for project in project.details %}
+          <a
+            href="{{ project.url }}"
+            class="{% if project.orientation %}
+                    {{ project.orientation }}
+                   {% endif %}"
+          >
+            <img src="{{ project.thumbnail }}" alt="" />
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</section>
